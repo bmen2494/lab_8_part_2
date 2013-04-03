@@ -18,6 +18,11 @@ void draw() {
   // draw a yellow car
   fill(150, 150, 150);
   ellipse(x + 30, 320, 90, 20);
+  
+  if (x >= 500){
+    x=1;
+  }
+  
 
   fill(250,250,0);
   rect(x, 300, 80, 20);
